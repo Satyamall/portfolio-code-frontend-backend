@@ -84,3 +84,7 @@ To Visit App:
 * please note that the application will not work before colone the API express, click [here]() to go to backend repository.
 * Change the server IP address in /src/app/serverApi.js  file.
 
+# .env file content:
+<!-- PORT=5000
+DATA_BASE_CONNECTION=mongodb+srv://Satya_Mall:satya1122@mymongodb.p0fwq.mongodb.net/portfolio?retryWrites=true&w=majority
+TOKEN_SECRET=satyaprakashmall -->

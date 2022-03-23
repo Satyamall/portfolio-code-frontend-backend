@@ -40,14 +40,14 @@ const Projects = ({ reff }) => {
           </p>
           <p style={{ fontSize: "12px" }}> {proj.technologies}</p>
           {proj.haveLink && (
-            <button
+            <a
               className="btn btn-primary btn-sm shadow-none mb-0"
               target="_blank"
               rel="noreferrer"
               href={proj.link}
             >
-              <i className="fa fa-clone left"></i> View project code
-            </button>
+              <i className="fa fa-clone left"></i> View project
+            </a>
           )}
         </div>
       </div>
