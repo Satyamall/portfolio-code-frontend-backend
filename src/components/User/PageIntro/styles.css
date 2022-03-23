@@ -11,6 +11,15 @@
   animation: move 2.5s ease-in-out infinite;
 }
 
+.icons-color {
+  color: black;
+}
+
+.icons-color:hover {
+  color: red;
+}
+
+
 @keyframes move {
   0%,
   100% {

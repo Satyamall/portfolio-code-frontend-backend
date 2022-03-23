@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import homeImage from "../../../assets/images/dev.svg";
 import Pdf from "../../../assets/Satya-Resume-FSWD.pdf";
-const onResumeClick=()=>{
+const onResumeClick = () => {
   window.open(Pdf)
 }
 
@@ -23,10 +23,69 @@ const PageIntro = ({ reff }) => {
                       Full Stack Web Developper
                     </h3>
                     <br />
-                    <a onClick={onResumeClick} style={{border: "1px solid blue",background: "blue", padding: 10, borderRadius: "5px"}}>
+                    <a onClick={onResumeClick} style={{ border: "1px solid blue", background: "blue", padding: 10, borderRadius: "5px" }}>
                       See My Resume
                     </a>
                     <hr className=" my-4 text-light" />
+                    <div className="text-center text-md-right">
+                      <ul className="list-unstyled list-inline">
+                        <li className="list-inline-item">
+                          <a
+                            href="https://www.facebook.com/satya.p.mall"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-floating btn-sm text-white"
+                            style={{ fontSize: "23px" }}
+                          >
+                            <i className="fab fa-facebook-f icons-color"></i>
+                          </a>
+                        </li>
+                        <li className="list-inline-item">
+                          <a
+                            href="https://twitter.com/SatyaMall895380"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-floating btn-sm text-white"
+                            style={{ fontSize: "23px" }}
+                          >
+                            <i className="fab fa-twitter icons-color"></i>
+                          </a>
+                        </li>
+                        <li className="list-inline-item">
+                          <a
+                            href="https://www.linkedin.com/in/satya-prakash-mall-125649216/"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-floating btn-sm text-white"
+                            style={{ fontSize: "23px" }}
+                          >
+                            <i className="fab fa-linkedin-in icons-color"></i>
+                          </a>
+                        </li>
+                        <li className="list-inline-item">
+                          <a
+                            href="https://github.com/Satyamall"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-floating btn-sm text-white"
+                            style={{ fontSize: "23px" }}
+                          >
+                            <i className="fab fa-github icons-color"></i>
+                          </a>
+                        </li>
+                        <li className="list-inline-item">
+                          <a
+                            href="mailto: thesatyamall123@gmail.com"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="btn-floating btn-sm text-white"
+                            style={{ fontSize: "23px" }}
+                          >
+                            <i className="fa-regular fa-envelope icons-color"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
